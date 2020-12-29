@@ -9,4 +9,6 @@ My solution implements what I think (?) is depth-limited graph search. The actua
 - Instead of seeking a goal, this algorithm traverses the graph to a specified depth. "Depth" is 1-indexed
 - Does not care whether it visits the same nodes multiple times. For example, for a depth of 5, the following path is permissible: Node 1 --> Node 2 --> Node 1 --> Node 2 --> Node 1.
 
+I'm posting this 1) because it worked correctly the first time which is *unheard of* for code I write, and I'm quite pleased with it; and 2) because there doesn't seem to be a depth-limited graph search algorithm for MATLAB published anywhere, and I thought it might be useful. Maybe this isn't something people care about in graph mathematics? Who knows?!?
+
 Thanks to the the DWYL project for their English words dictionary (https://github.com/dwyl/english-words); and of course, the NYT puzzle team.
